@@ -1,0 +1,11 @@
+---
+:ingredients:
+- :type: :installer
+  :installer_type: :custom
+  :source_url: http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-1.9.3-p484.exe?direct
+  :package_name: Ruby 1.9.3-p484
+  :installer_options: /verysilent /dir="C:\bin\ruby193" /tasks="assocfiles,modpath"
+  :support_32bit: true
+  :support_64bit: 
+:support_32bit: true
+:support_64bit: 

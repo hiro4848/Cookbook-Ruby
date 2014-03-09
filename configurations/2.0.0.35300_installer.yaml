@@ -1,0 +1,18 @@
+---
+:ingredients:
+- :type: :installer
+  :installer_type: :custom
+  :source_url: http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353.exe?direct
+  :package_name: Ruby 2.0.0-p353
+  :installer_options: /verysilent /dir="C:\bin\ruby200" /tasks="assocfiles,modpath"
+  :support_32bit: true
+  :support_64bit: 
+- :type: :installer
+  :installer_type: :custom
+  :source_url: http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353-x64.exe?direct
+  :package_name: Ruby 2.0.0-p353-x64
+  :installer_options: /verysilent /dir="C:\bin\ruby200" /tasks="assocfiles,modpath"
+  :support_32bit: 
+  :support_64bit: true
+:support_32bit: true
+:support_64bit: true
